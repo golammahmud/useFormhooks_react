@@ -9,6 +9,7 @@ import Contact from "../src/component/pages/contact";
 import Formstate from "../src/component/pages/formstate";
 import WatchMood from "../src/component/pages/watch";
 import ResetField from "../src/component/pages/resetfield";
+import Usevalue from "../src/component/pages/setvalues";
 export default function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/formstate" element={<Formstate />} />
         <Route path="/watch" element={<WatchMood />} />
+        <Route path="/setvalues" element={<Usevalue />} />
         <Route
           path="*"
           element={
